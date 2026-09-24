@@ -19,15 +19,15 @@ class MyApp extends StatelessWidget{
                       for(int i = 0; i < 8 ; i++)
                         if(i % 2 == 0)...[
                           Container(
-                            height : MediaQuery.of(context).size.height / 9,
-                            width : MediaQuery.of(context).size.width / 9,
+                            height : MediaQuery.of(context).size.height / 8,
+                            width : MediaQuery.of(context).size.width / 8,
                             color: Colors.white70,
                           )
                         ]
                         else...[
                           Container(
-                            height : MediaQuery.of(context).size.height / 9,
-                            width : MediaQuery.of(context).size.width / 9,
+                            height : MediaQuery.of(context).size.height / 8,
+                            width : MediaQuery.of(context).size.width / 8,
                             color: Colors.black,
                           ),
                         ],
@@ -40,15 +40,15 @@ class MyApp extends StatelessWidget{
                       for(int i = 0; i < 8 ; i++)
                         if(i % 2 == 0)...[
                           Container(
-                            height : MediaQuery.of(context).size.height / 9,
-                            width : MediaQuery.of(context).size.width / 9,
+                            height : MediaQuery.of(context).size.height / 8,
+                            width : MediaQuery.of(context).size.width / 8,
                             color: Colors.black,
                           )
                         ]
                         else...[
                           Container(
-                            height : MediaQuery.of(context).size.height / 9,
-                            width : MediaQuery.of(context).size.width / 9,
+                            height : MediaQuery.of(context).size.height / 8,
+                            width : MediaQuery.of(context).size.width / 8,
                             color: Colors.white70,
                           ),
                         ],
